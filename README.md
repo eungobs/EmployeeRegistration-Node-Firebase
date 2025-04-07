@@ -1,7 +1,5 @@
 ![Untitled (9)](https://github.com/user-attachments/assets/263d67f2-edf4-4bce-9ded-83693d178d25)
 
-Here's the revised README file, incorporating the provided repository URL:
-
 
 # Teekga ELECTRICAL Company Registration App
 
