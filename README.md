@@ -1,72 +1,89 @@
 ![Untitled (9)](https://github.com/user-attachments/assets/263d67f2-edf4-4bce-9ded-83693d178d25)
 
+Here's the revised README file, incorporating the provided repository URL:
+
+
 # Teekga ELECTRICAL Company Registration App
 
-## Project Overview
-The Teekga ELECTRICAL Company Registration App is designed to efficiently manage employee records. This application allows the admin to securely log in and perform CRUD (Create, Read, Update, Delete) operations on employee data. It also provides insights into the status of employees, including active employees, deactivated employees, and those who have transferred to other company branches.
+Welcome to the Teekga ELECTRICAL Company Registration App! This application is designed to help manage employee records efficiently. It allows an admin to securely log in and perform various operations involving employee data, such as adding, updating, and deleting records. The app also provides insights into the status of employees, including those who are active, deactivated, or have transferred to other branches.
 
-## Features
-- **Admin Access Only:** Only the admin can log in to the app and perform actions like adding, updating, and deleting employee records. To delete an employee, log in using the admin credentials:
-  - **Username:** elizabeth.ndzukule@gmail.com
-  - **Password:** 000000
+You can try out the application here: [Demo Link](https://employee-registration-node-firebase-ywyn.vercel.app).
 
-- **Employee Status:** View employees by their status, including active employees, deactivated employees, and those who have moved to other branches.
+## Key Features
 
-- **Responsive Design:** The app is fully responsive and works seamlessly across all devices, ensuring an optimal user experience on both desktops and mobile devices.
+- **Admin Access Only**: This app is for admins only! Only authorized users can log in to manage employee records. Admin login details are as follows:
+  - **Username**: elizabeth.ndzukule@gmail.com
+  - **Password**: 000000
 
-- **Built-in Security:** The app has been developed with a focus on security to ensure safe access and management of employee data.
+- **View Employee Status**: You can see employees categorized by their work status, including active employees, those who are not currently active (deactivated), and those who have moved (transferred) to other branches.
+
+- **Responsive Design**: The application works beautifully on any device, whether it’s a desktop computer or a mobile phone, ensuring a great user experience wherever you are.
+
+- **Built-in Security**: The app focuses on keeping employee data secure, so you can manage your information safely.
 
 ## Technologies Used
-- **React.js:** A JavaScript library for building user interfaces and handling state management.
-- **Node.js:** Used for the backend server to handle requests and manage data.
-- **Firebase:** Utilized for user authentication and data storage.
-- **JavaScript:** For handling the core application logic and interactivity.
-- **CSS:** To ensure a modern and responsive design for the app.
 
-## Installation and Setup
-To set up the project, follow these steps:
+The app is built using the following technologies:
 
-1. **Clone the repository:**
+- **React.js**: This is a tool that helps build the user interface (what you see on the screen) and manage how it behaves.
+- **Node.js**: This is used for the backend (the part that runs on the server and handles requests) to store and manage all the data.
+- **Firebase**: This service is used for user authentication (making sure only authorized users can log in) and storing employee data.
+- **JavaScript**: This is the programming language that runs the app's core functionality.
+- **CSS**: This styling language makes the app look modern and responsive.
+
+## How to Install and Set Up the Application
+
+To get this app up and running on your computer, follow these simple steps:
+
+1. **Clone the Repository**: This means making a copy of the app’s files on your computer.
+   - Open your terminal (like Command Prompt or PowerShell) and type:
+
+     git clone https://github.com/eungobs/EmployeeRegistration-Node-Firebase.git
+     cd EmployeeRegistration-Node-Firebase
+ 
+
+2. **Install Frontend Dependencies**: This step ensures that all the tools the app needs are ready to go. Type:
+
+   npm install
+ 
+
+3. **Set Up the Backend**: 
+   - Navigate to the backend directory (if there is one; adjust accordingly) and run:
    
-   git clone <repository-url>
-   cd employee-registration
+     cd backend
+     npm install
+     npm start
+  
 
-   Install the frontend dependencies:
+4. **Open the App**: After the backend is running, open your web browser and go to [http://localhost:3000](http://localhost:3000) to see the app.
+
+## How to Use the App
+
+### Landing Page
+- When you first arrive at the app, click the "Admin" button to register as a new admin. Once registered, use the admin credentials provided above to log in.
+
+### Active Employees Page
+- After logging in, you will find yourself on the **Active Employees** page. Here, you can see all current employees and manage their records. The page includes:
+
+  - **Action Buttons**:
+    - **Add**: This button lets you open a form to add a new employee.
+    - **Edit**: You can edit the details of an employee. This button will be found within each employee's card.
+    - **Delete**: You can delete an employee from the system. Once you confirm, they will be removed.
+    - **Personnel**: Click this to view employees who have resigned, transferred, or been promoted.
+    - **Logout**: This button lets you log out securely when you're done.
+
+- **Employee Cards**: Each card displays information about an individual employee, including their details and options to edit or delete.
+
+## Author
+
+This project was completed by **Elizabeth Eunice Ndzukule** in just 5 days, showcasing rapid development abilities. I developed the app using Visual Studio Code, and the initial designs were created with Figma. You can find screenshots of the app in the public folder of the project.
+
+## Additional Information
+
+The Teekga ELECTRICAL Company Registration App is designed with an emphasis on security and a user-friendly experience. It allows the company’s admin to manage employee data efficiently and safely from anywhere, using any device.
+
+If you have any questions or need further assistance, feel free to reach out! Enjoy using the app!
 
 
-npm install
-Set up the backend:
 
-Navigate to the backend directory and run:
-
-npm install
-npm start
-Open the app in your browser at http://localhost:3000.
-
-How to Use
-Landing Page:
-On the landing page, click the Admin button to register as a new admin.
-Once registered, log in to access the employee management system.
-Active Employees Page:
-Description:
-After logging in, users will be directed to the Active Employees page where they can view all current employees. The page includes several action buttons and individual employee cards for managing employee records.
-
-Layout and Features:
-Top-Left Action Buttons:
-
-Add: Opens a form or modal for adding a new employee to the system.
-Edit: Allows editing of employee details. (Note: This button will be located inside each employee's card.)
-Delete: Deletes an employee from the system.
-Personnel: Provides access to view employees who have resigned, transferred, or been promoted to other branches or hubs.
-Logout: Logs the user out of the system securely.
-Employee Cards:
-
-Each card represents an individual employee with their details.
-Edit Button: This button is embedded within each employee's card, allowing users to edit the details specific to that employee.
-To delete an employee, log in using the credentials: elizabeth ndzukule. Click the Delete button and confirm the action.
-Author
-Elizabeth Eunice Ndzukule
-This project was completed in 5 days, demonstrating rapid development and deployment capabilities. The app was developed using VSCode, and the initial sketches of the app were created using Figma. Screenshots of the app can be found in the public folder.
-
-Additional Information
-This employee registration system was designed with a focus on security and responsiveness. It allows Teekga ELECTRICAL Company admins to manage employee data efficiently and securely from any device.
+This README now includes your provided repository URL and maintains a user-friendly language for individuals who are not familiar with coding.
